@@ -1,0 +1,7 @@
+n = int(input("Enter number: "))
+c = 0
+
+while c < n:
+    if c % 5 == 0:
+        print(c)
+    c = c + 1  
