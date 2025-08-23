@@ -1,8 +1,6 @@
-a=0
-b=1
-r=int(input('how many fab'))
+a, b = 0, 1
+r = int(input("How many Fibonacci numbers? "))  # enter 5
+
 for i in range(r):
-    c=a+b
-    a=b
-    b=c
-    print(c,end=' ')
+    print(a, end=' ')
+    a, b = b, a + b
