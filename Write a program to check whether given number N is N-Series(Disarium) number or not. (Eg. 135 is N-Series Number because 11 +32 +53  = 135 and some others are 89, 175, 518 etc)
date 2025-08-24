@@ -1,0 +1,13 @@
+n=int(input("Enter a number"))
+l=len(str(n))
+temp=0
+res=n
+while n!=0:
+    r=n%10
+    temp=temp+(r**l)
+    l-=1
+    n=n//10
+if temp==res:
+    print('disarium')
+else:
+    print('not disarium')
