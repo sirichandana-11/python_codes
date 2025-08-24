@@ -1,7 +1,5 @@
-n = int(input("Enter number: "))
-c = 0
-
-while c < n:
-    if c % 5 == 0:
-        print(c)
-    c = c + 1  
+N = int(input("Enter how many numbers divisible by 5: "))      # current number to check
+c=1
+while c<N+1:
+    print(c*5)
+    c+=1 
