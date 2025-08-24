@@ -1,0 +1,10 @@
+amount=2589
+n=[2000,500,200,100,50,20,10]
+l=len(n)
+total=0
+for i in range(l):
+    if amount>=n[i]:
+        notes=amount//n[i]
+        amount%=n[i]
+        total=total+notes
+print("Total notes:", total)
